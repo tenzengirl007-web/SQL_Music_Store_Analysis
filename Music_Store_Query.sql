@@ -134,7 +134,7 @@ FROM album alb
 JOIN artist ar
 ON alb.artist_id = ar.artist_id;
 
-Q.13 Display every invoice with the customer's full name.
+Q.13 Display every invoice with the customer’s full name.
 
 SELECT i.invoice_id,
        c.first_name,
